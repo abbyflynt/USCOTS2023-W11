@@ -19,9 +19,8 @@ Google Doc for Website Based Project Ideas: https://tinyurl.com/2p9efafx
 Other Links from Presentation for Easy Access:
 
 - distill: https://rstudio.github.io/distill/
-
+- another distill: https://posit.co/blog/distill/
 - postcard package: https://www.apreshill.com/blog/2020-12-postcards-distill/
-
 - aRtsy package: https://koenderks.github.io/aRtsy/
 
 You will also three folders in this respository.

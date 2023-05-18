@@ -1,0 +1,63 @@
+---
+title: "Teaching"
+description: |
+  Some information on my recent courses
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+# Courses taught in the Department of Mathematics
+
+* MATH 216: Statistics I
+* MATH 227: Statistics & Engineering
+* MATH 230: Data Visualization & Computing (details below)
+* MATH 304: Statistical Inference
+* MATH 407: Statistical Designs for Scientific Studies
+
+# Courses taught in the A&S Core Curriculum
+
+* RESC 098: Sports, Statistics, and Society
+* RESC 098: How it Started, How it's Going
+* UNIV 200: Introduction to Data Science
+
+
+## More about MATH 230
+
+I developed **Data Visualization & Computing** for the Spring 2022 semester with the following course description and objectives.
+
+Statistical computing is an essential component of statistics and data literacy.  In this course, both simulation and data visualization will be taught through the lens of statistical computing using the advanced statistical software language `R`.
+
+The learning objectives for MATH 230 are the following:
+
+1. Students will become efficient and proficient coders in the statistical language `R` (including the use of RStudio and RMarkdown). 
+2. Students will deepen their understanding of introductory statistics topics through simulation based learning and nonparametric methods. 
+3. Students will learn how to create graphical displays of multivariate and complex data. They will learn to effectively discuss these displays and their uses and misuses. 
+
+Reflecting on the course, one thing I am really proud of is how well students learned to "Google stuff."  It was important for me that my students understood how often <a href="https://erictleung.com/everything-i-googled-in-a-week-as-a-data-scientist"> "experts"</a> need to <a href="https://www.tiktok.com/@colethesciencedude/video/7078164736591826218"> Google things</a>.  Early in the semester before we learned much about coding, students had to <a href="Google_Challenge.pdf"> complete a Google Challenge</a> to figure out the code that completed some simple tasks.
+
+As another example, on the first day that I taught students about `ggplot2`, I showed them the very basics of the "Grammar of Graphics" and layering, and then for homework, gave them the following plot to recreate (which I recreated from a <a href="https://www.nytimes.com/2022/02/03/learning/whats-going-on-in-this-graph-feb-9-2022.html"> What's going on in this Graph post </a>):
+
+```{r, echo = FALSE}
+data = data.frame(old = c(19, 24, 20, 24, 20, 28, 30, 27, 38, 35, 36, 39, 43, 48, 49, 51, 55, 62, 65, 55, 77),
+                  young = c(30, 27, 39, 40, 47, 44, 49, 63, 51, 66, 62, 61, 56, 50, 44, 65, 64, 61, 64, 70, 81),
+                  row.names = c("Brazil", "Mali", "Peru", "France", "Argentina", "Cameroon", "Spain", "Japan", "U.K.", "U.S.", "Ukraine", "Germany", "Lebanon", "Bangladesh", "Morocco", "Kenya", "Ethiopia", "Nigeria", "India", "Zimbabwe", "Indonesia"))
+
+library(ggplot2)
+ggplot(data, aes(x = old, y = young)) + 
+  geom_point(size = 4, col = "#70AB9F") + 
+  labs(x = NULL, y = NULL) +
+  scale_x_continuous(breaks = c(25, 50, 75), labels = c("25%", "50%", "75%"), limits = c(16, 84)) + 
+  scale_y_continuous(breaks = c(25, 50, 75), labels = c("25%", "50%", "75%"), limits = c(16, 84)) + 
+  geom_text(aes(label = row.names(data)), vjust = -1.15, hjust = 0, size = 4) + 
+  geom_abline(intercept = 0, slope = 1, size = 1)
+```
+
+Nearly every student was able to perfectly recreate the plot (after being given the HEX code).  This task continued on their two take home exams, where one problem was to recreate a graph that they had never seen before.  Students were able to use Google to find really interesting ways to customize their Shiny apps (see for example: <a href="https://rconnect.bucknell.edu/content/68ed495d-b45e-4329-8aec-f45d272722bb"> this</a> and <a href="https://rconnect.bucknell.edu/content/c9c7fa3a-0fbf-4c42-b4e7-19e6950f0564"> that</a>)
+ and their final distill websites (see for example: <a href="https://gabbymishler58.github.io/GabbyMishler_Website/"> this</a> and <a href="https://dbn005.github.io/Viz-Through-RStudio/index.html"> that</a>).
+
+
+
+

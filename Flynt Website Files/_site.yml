@@ -1,0 +1,16 @@
+name: "aflynt_website"
+title: "Abby Flynt, PhD"
+description: |
+  Abby Flynt, PhD
+output_dir: "docs"
+theme: theme.css
+navbar:
+  logo:
+    image: logo.png
+    href: https://abbyflynt.github.io/aflynt_website/
+  right:
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Research"
+      href: research.html  
+output: distill::distill_article

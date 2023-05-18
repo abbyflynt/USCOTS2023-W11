@@ -1,0 +1,37 @@
+---
+title: "Welcome!"
+image: "photo.JPG"
+color1: "#5e6d64"
+color2: "#43a972"
+angle: -175
+links:
+  - label: Bucknell
+    url: https://www.bucknell.edu/fac-staff/abby-flynt
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=34wJigIAAAAJ&hl=en
+  - label: Twitter
+    url: "https://twitter.com/abbyflynt"
+  - label: Email
+    url: "mailto:abby.flynt@bucknell.edu"
+output:
+  postcards::onofre
+site: distill::distill_website
+---
+ 
+
+I am a statistician and Associate Professor in the Department of Mathematics at Bucknell University in Lewisburg, Pennsylvania.  Ray Bucknell!
+
+I received a Bachelor of Science degree in Mathematics Secondary Education from SUNY Fredonia and a Masters and PhD in Statistics from Carnegie Mellon University.
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```

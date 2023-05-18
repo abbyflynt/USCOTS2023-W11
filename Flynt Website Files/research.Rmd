@@ -1,0 +1,40 @@
+---
+title: "Research"
+description: |
+  Some information on my research
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+My research interests are broadly focused in machine learning and data science, but I predominately work in statistical clustering. Clustering is considered an exploratory technique and method of unsupervised learning, with the goal of classifying groups of unlabeled observations. I work on both theoretical and applied problems in clustering, with applications in educational research, social justice and public health.
+
+I am the current Past-President of  <a href="https://www.theclassificationsociety.org/"> The Classification Society. </a> 
+
+# Current Work
+
+Currently I am working as a co-PI on an <a href = "https://myweb.bucknell.edu/advance-bucknell"> NSF ADVANCE Grant </a>, looking at barriers to hiring, promotion, and retention for women and minority STEM faculty at Bucknell.
+
+# Article Discussions & Publications
+Murph, A.$^\star$, Flynt, A., and King B (2021). "Comparing finite sequences of discrete events with non-uniform time intervals." *Sequential Analysis, 40(3)*, 291-313.
+
+Sweet, T., Flynt, A., and Choi, D. (2019), "Clustering ensembles of social networks." *Network Science, 7(2)*,  141 - 159.
+ 
+Flynt, A., and Dean, N. (2019), "Growth mixture modeling with measurement selection." *The Journal of Classification, 36(1),* 3 - 25.
+
+Flynt, A., Dean, N., and Nugent, R.  (2019), "sARI: a *soft* agreement measure for class partitions incorporating assignment probabilities." *Advances in Data Analysis and Classification, 13(1),*  303 - 323.
+
+Huang, Y.$^\star$,  and Flynt, A. (2018), "Exploration of common clustering methods and the behavior of certain performance indices."  *Ball State Undergraduate Mathematics Exchange, 21(1)*, 35 - 50.
+
+Flynt, A., and Dean, N. (2016), "A survey of popular `R` packages for clustering."  *Journal of Educational and  Behavioral Statistics, 41(2)*,  205 - 225.
+
+Flynt, A. and Nugent, R. **"Discussion of Statistical modelling of citation exchange among statistics journals by Varin, Cattelan and  Firth"** *Journal of the Royal Statistical  Society A,* (2016), Vol 179, Part 1,  p. 47 - 49.
+
+
+Flynt, A., and Daepp, M. (2015), "Diet-related chronic disease in the northeastern United States: A model-based clustering approach."  *International Journal of Health Geographics*, 14 - 25. 
+
+Nugent, R. and Flynt, A. **"Discussion of How to find an appropriate clustering for mixed type variables with application to socio-economic stratification by Hennig and Liao"** *Journal of the Royal Statistical Society C,* (2013), Vol 62, Part 3, p. 47 - 48.
+
+<p align = "right"> $^\star$ *Undergraduate Student* </p>

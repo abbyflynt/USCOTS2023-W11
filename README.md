@@ -12,7 +12,7 @@ Did you know that you (and your students) can leverage your RStudio and RMarkdow
 
 Link to Presentation Slides:
 
-Link to Shiny App:
+Link to Shiny App: https://abbyflynt.shinyapps.io/USCOTS2023/
 
 Google Doc for Website Based Project Ideas: https://tinyurl.com/2p9efafx
 

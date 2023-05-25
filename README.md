@@ -8,7 +8,7 @@ Did you know that you (and your students) can leverage your RStudio and RMarkdow
 
 **Presented by:** Abby Flynt, Associate Professor and Department Chair, Bucknell University
 
-**With suppoort from:** Sara Stoudt, Assistant Professor and Data Communications Expert, Bucknell University
+**With suppoort from:** Sara Stoudt, Data Communications Guru & Assistant Professor, Bucknell University
 
 Link to Presentation Slides:
 

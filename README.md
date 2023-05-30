@@ -10,7 +10,7 @@ Did you know that you (and your students) can leverage your RStudio and RMarkdow
 
 **With suppoort from:** Sara Stoudt, Data Communications Guru & Assistant Professor, Bucknell University
 
-Link to Presentation Slides:
+Link to Presentation Slides: https://docs.google.com/presentation/d/1-ydXycG96eK2ojB7Z4EEi0IQ1Wm08OdibZKz23Eaxt0/edit?usp=sharing
 
 Link to Shiny App: https://abbyflynt.shinyapps.io/USCOTS2023/
 
